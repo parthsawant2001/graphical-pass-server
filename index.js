@@ -11,10 +11,7 @@ const PORT = 3000;
 app.use(
   cors({
     credentials: true,
-    origin: [
-      'http://localhost:3001',
-      'https://graphical-pass-client.vercel.app',
-    ],
+    origin: 'https://graphical-pass-client.vercel.app',
   })
 );
 // app.use(cors());
