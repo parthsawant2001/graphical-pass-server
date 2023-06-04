@@ -14,8 +14,8 @@ app.use(
     origin: [
       'https://graphical-pass-client-git-main-parthsawant2001.vercel.app',
       'https://graphical-pass-client.vercel.app',
-      'https://graphical-pass-client-3sed7p1r0-parthsawant2001.vercel.app/',
-      'https://graphical-pass-client-parthsawant2001.vercel.app/',
+      'https://graphical-pass-client-3sed7p1r0-parthsawant2001.vercel.app',
+      'https://graphical-pass-client-parthsawant2001.vercel.app',
     ],
   })
 );
