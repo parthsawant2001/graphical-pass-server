@@ -8,7 +8,7 @@ const bcrypt = require('bcryptjs');
 const app = express();
 const cors = require('cors');
 const PORT = 3000;
-app.use(cors({ credentials: true, origin: 'http://localhost:3001' }));
+app.use(cors({ credentials: true, origin: 'http://localhost:3001', 'https://graphical-pass-client.vercel.app' }));
 // app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
